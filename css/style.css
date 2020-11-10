@@ -4,6 +4,8 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ 
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -253,6 +255,34 @@ input[type="month"] {
 textarea {
   overflow: auto;
   resize: vertical; }
+
+
+  .about-area {
+    background-color: #f9f9f9;
+  }
+  
+  .single-well > a {
+    display: block;
+  }
+  
+  .single-well ul li {
+    color: #444;
+    display: block;
+    padding: 5px 0;
+  }
+  
+  .single-well ul li i {
+    color: #3EC1D5;
+    padding-right: 10px;
+    font-size: 12px;
+  }
+  
+  .single-well p {
+    color: #444;
+  }
+  .vertical-offset-100{
+    padding-top:100px;
+}  
 
 fieldset {
   min-width: 0;
@@ -9884,3 +9914,92 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+    @charset "utf-8";
+    /* CSS Document */
+    body{
+      margin:0px;
+      padding:0px;	
+      font-family: calibri;
+    }
+    a{
+      text-decoration: none;
+    }
+    .login-container{
+      background-image: url("../img/bg.png");
+      background-size:cover;
+      background-repeat: no-repeat;
+      width:100%;
+      height: 100vh;
+      position: relative;
+    }
+    .login-inputs{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+     
+    }
+    .login-inputs h1{
+      color: #fff;
+      font-size: 3rem;
+      letter-spacing: 3px;
+      margin:10px;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+      font-family: Magmawave Caps;
+    }
+    .login-inputs form{
+      background-color: #fff;
+      box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+      border-radius: 10px;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .login-inputs form input{
+      margin:10px;
+      width:250px;
+      height: 30px;
+      background-color: #8b1209;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      color:#fff;
+      padding:5px 10px;
+    }
+    .login-inputs form input::placeholder{
+      color:#fff;
+    }
+    .login-inputs form button{
+      text-transform: uppercase;
+      width:110px;
+      height: 35px;
+      border-radius: 20px;
+      border: none;
+      outline: none;
+      margin:5px;
+      font-weight:600;
+      background-color:#8b1209;
+      color:#fff;
+      font-size:12px;
+      font-family: poppins;
+      letter-spacing: 1px;
+    }
+    .login-inputs form button:hover{
+      background-color:#8b1209;
+      transition: all ease 0.3s;
+    }
+    .forget{
+      color:#fff;
+      margin:20px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 0.9rem;
+      border-bottom: 1px solid #62627d;
+    }
