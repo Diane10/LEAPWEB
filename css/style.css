@@ -486,6 +486,14 @@ kbd {
     font-size: 100%;
     font-weight: 700; }
 
+[id^="see_less"] {
+  display: none;
+}
+
+[class^="read-more-content"] {
+  display: none;
+}
+
 pre {
   display: block;
   font-size: 87.5%;
@@ -9429,7 +9437,6 @@ textarea.form-control {
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
-  -webkit-backface-visibility: hidden;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -9935,8 +9942,8 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
-    @charset "utf-8";
-    /* CSS Document */
+    /* @charset "utf-8";
+    CSS Document */
     body{
       margin:0px;
       padding:0px;	
