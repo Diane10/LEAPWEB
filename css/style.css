@@ -179,6 +179,7 @@ svg {
 table {
   border-collapse: collapse; }
 
+
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -199,6 +200,26 @@ button {
 button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color; }
+
+#more {display: none;}
+#more1 {display: none;}
+#more2 {display: none;}
+#more3 {display: none;}
+#more4 {display: none;}
+#more5 {display: none;}
+#more6 {display: none;}
+#more7 {display: none;}
+#more8 {display: none;}
+
+#myBtn {color: #8b1209;}
+#myBtn1 {color: #8b1209;}
+#myBtn2 {color: #8b1209;}
+#myBtn3 {color: #8b1209;}
+#myBtn4 {color: #8b1209;}
+#myBtn5 {color: #8b1209;}
+#myBtn6 {color: #8b1209;}
+#myBtn7 {color: #8b1209;}
+#myBtn8 {color: #8b1209;}
 
 input,
 button,
@@ -8918,7 +8939,7 @@ h1, h2, h3, h4, h5,
     margin-top: -10px; }
   .staff:hover .text h3, .staff:focus .text h3 {
     color: #8b1209; }
-
+  
 .ftco-social {
   padding: 0; }
   .ftco-social li {
