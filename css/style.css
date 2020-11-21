@@ -210,17 +210,74 @@ button:focus {
 #more6 {display: none;}
 #more7 {display: none;}
 #more8 {display: none;}
+#more9 {display: none;}
+#more10 {display: none;}
+#more11 {display: none;}
+#more12 {display: none;}
+#more13 {display: none;}
+#more14 {display: none;}
 
-#myBtn {color: #8b1209;}
-#myBtn1 {color: #8b1209;}
-#myBtn2 {color: #8b1209;}
-#myBtn3 {color: #8b1209;}
-#myBtn4 {color: #8b1209;}
-#myBtn5 {color: #8b1209;}
-#myBtn6 {color: #8b1209;}
-#myBtn7 {color: #8b1209;}
-#myBtn8 {color: #8b1209;}
+#myBtn {color: #fff;
+background-color: #8b1209;
+border: none;}
+#myBtn1 {color: #fff;
+background-color: #8b1209;
+border: none;}
+#myBtn2 {color: #fff;
+background-color: #8b1209;
+border: none;}
+#myBtn3 {color: #fff;
+background-color: #8b1209;
+border: none;}
+#myBtn4 {color: #fff;
+background-color: #8b1209;
+border: none;}
+#myBtn5 {color: #fff;
+background-color: #8b1209;
+border: none;}
+#myBtn6 {color: #fff;
+background-color: #8b1209;
+border: none;}
+#myBtn7 {color: #fff;
+background-color: #8b1209;
+border: none;}
+#myBtn8 {color: #fff;
+background-color: #8b1209;
+border: none;}
+#myBtn9 {color: #fff;
+background-color: #8b1209;
+border: none;}
+#myBtn10 {color: #fff;
+background-color: #8b1209;
+border: none;}
+#myBtn11 {color: #fff;
+background-color: #8b1209;
+border: none;}
+#myBtn12 {color: #fff;
+background-color: #8b1209;
+border: none;}
+#myBtn13 {color: #fff;
+background-color: #8b1209;
+border: none;}
+#myBtn14 {color: #fff;
+background-color: #8b1209;
+border: none;}
 
+#dots {color: #8b1209;}
+#dots1 {color: #8b1209;}
+#dots2 {color: #8b1209;}
+#dots3 {color: #8b1209;}
+#dots4 {color: #8b1209;}
+#dots5 {color: #8b1209;}
+#dots6 {color: #8b1209;}
+#dots7 {color: #8b1209;}
+#dots8 {color: #8b1209;}
+#dots9 {color: #8b1209;}
+#dots10 {color: #8b1209;}
+#dots11 {color: #8b1209;}
+#dots12 {color: #8b1209;}
+#dots13 {color: #8b1209;}
+#dots14 {color: #8b1209;}
 input,
 button,
 select,
@@ -8924,7 +8981,8 @@ h1, h2, h3, h4, h5,
       font-size: 12px;
       font-weight: 500; }
     .staff .text .faded {
-      opacity: 1; }
+      opacity: 1;
+      text-align: left; }
   .staff .ftco-social {
     position: absolute;
     top: -30px;
