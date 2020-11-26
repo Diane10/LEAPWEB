@@ -190,6 +190,10 @@ caption {
 th {
   text-align: inherit; }
 
+.center{
+  display: flex !important;
+  justify-content: space-evenly !important;
+}
 label {
   display: inline-block;
   margin-bottom: 0.5rem; }
@@ -337,7 +341,7 @@ textarea {
 
   .about-area {
     background-color: #f9f9f9;
-  }
+  }import
   
   .single-well > a {
     display: block;
