@@ -6749,6 +6749,7 @@ button.bg-dark:focus {
 
 .mb-3,
 .my-3 {
+  font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 1rem !important; }
 
 .ml-3,
